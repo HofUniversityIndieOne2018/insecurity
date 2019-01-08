@@ -1,0 +1,22 @@
+{
+    "name": "hof-university/insecurity",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Hader",
+            "email": "oliver.hader.2@hof-university.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5",
+        "typo3/cms-frontend": "^9.5",
+        "typo3/cms-backend": "^9.5"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".ignore/"
+        }
+    }
+}
